@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btnNumber">
+        <item name="android:background">@drawable/round_button2</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:onClick">numberButtonClicked</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="backgroundTint">@color/dark_gray</item>
+    </style>
+    <style name="btnArithmetic" parent="btnNumber">
+        <item name="android:onClick">arithmeticButtonClicked</item>
+        <item name="backgroundTint">@color/orange</item>
+    </style>
+    <style name="btnOther" parent="btnNumber">
+        <item name="android:onClick">otherButtonClicked</item>
+        <item name="backgroundTint">@color/gray</item>
+    </style>
+    <style name="tvCalculate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tvResult" parent="tvCalculate">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="glKeyPad">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:columnCount">4</item>
+        <item name="android:rowCount">5</item>
+    </style>
+</resources>
+
