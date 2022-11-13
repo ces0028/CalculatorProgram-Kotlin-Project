@@ -15,4 +15,4 @@ Creating a simple calculator program using Kotlin
 2022-10-29(Sat) ~ 2022-10-30(Sun)
 
 ## Run Application
-![Calculator-Kotlin-Project_ces0028](https://user-images.githubusercontent.com/115549424/201509724-398f6fbe-b603-4284-b4b7-18482dfe97fc.gif)
+![Calculator-Kotlin-Project_ces0028](https://user-images.githubusercontent.com/115549424/201509909-d663e8b3-5242-4a2c-8ce8-8c410ff65df4.gif)
